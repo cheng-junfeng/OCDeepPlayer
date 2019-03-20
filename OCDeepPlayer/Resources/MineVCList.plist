@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mine</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>版本</string>
+			<key>iconName</key>
+			<string>mine_help</string>
+			<key>controller</key>
+			<string>HomeViewController</string>
+			<key>secondTitle</key>
+			<string>V1.0.1</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>关于我</string>
+			<key>iconName</key>
+			<string>mine_message</string>
+			<key>controller</key>
+			<string>AboutViewController</string>
+			<key>secondTitle</key>
+			<string>https://cheng-junfeng.github.io</string>
+		</dict>
+	</array>
+</dict>
+</plist>

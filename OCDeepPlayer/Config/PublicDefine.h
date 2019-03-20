@@ -42,4 +42,22 @@
 #define getStatusBarHight     [[UIApplication sharedApplication] statusBarFrame].size.height
 
 #define kNavigationHeight 44
+
+#define MineHeader_H 200
+#define LoadingAlert @"正在加载中"
+//判断是否是iphonex
+static inline BOOL isIPhoneXSeries() {
+    BOOL iPhoneXSeries = NO;
+    if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone) {
+        return iPhoneXSeries;
+    }
+    if (@available(iOS 11.0, *)) {
+        UIWindow *mainWindow = [[[UIApplication sharedApplication] delegate] window];
+        if (mainWindow.safeAreaInsets.bottom > 0.0) {
+            iPhoneXSeries = YES;
+        }
+    }
+    
+    return iPhoneXSeries;
+}
 #endif /* PublicDefine_h */

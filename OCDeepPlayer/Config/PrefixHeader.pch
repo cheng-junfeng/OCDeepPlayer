@@ -22,4 +22,6 @@
 #import "NSArray+JSON.h"
 #import "PublicDefine.h"
 #import "ZEBUI.h"
+#import "WSPageManager.h"
+#import "UIViewController+HUD.h"
 #endif /* PrefixHeader_pch */
