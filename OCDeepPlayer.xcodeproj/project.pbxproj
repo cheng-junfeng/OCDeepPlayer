@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69E79E88C5781ABD5EF15B0E /* libPods-OCDeepPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DDE385AD37B614785C5C2B /* libPods-OCDeepPlayer.a */; };
+		FEBA85802241F40900CD2DCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA857F2241F40900CD2DCC /* AppDelegate.m */; };
+		FEBA85882241F40900CD2DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBA85872241F40900CD2DCC /* Assets.xcassets */; };
+		FEBA858E2241F40900CD2DCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA858D2241F40900CD2DCC /* main.m */; };
+		FEBA85982241F40900CD2DCC /* OCDeepPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85972241F40900CD2DCC /* OCDeepPlayerTests.m */; };
+		FEBA85A32241F40900CD2DCC /* OCDeepPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85A22241F40900CD2DCC /* OCDeepPlayerUITests.m */; };
+		FEBA85B9224213AE00CD2DCC /* AppDelegate+TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85B6224213AE00CD2DCC /* AppDelegate+TabBar.m */; };
+		FEBA85BC224213C400CD2DCC /* WSLaunchSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85BA224213C400CD2DCC /* WSLaunchSceneViewController.m */; };
+		FEBA85C3224213DC00CD2DCC /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85BD224213DC00CD2DCC /* BaseTabBarController.m */; };
+		FEBA85C4224213DC00CD2DCC /* BasePresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85BE224213DC00CD2DCC /* BasePresentViewController.m */; };
+		FEBA85C5224213DC00CD2DCC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85C0224213DC00CD2DCC /* BaseViewController.m */; };
+		FEBA85C8224213ED00CD2DCC /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85C7224213ED00CD2DCC /* RootNavigationController.m */; };
+		FEBA85EC2242148C00CD2DCC /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85C92242148A00CD2DCC /* UIButton+EnlargeEdge.m */; };
+		FEBA85EE2242148C00CD2DCC /* NSArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85CB2242148A00CD2DCC /* NSArray+JSON.m */; };
+		FEBA85EF2242148C00CD2DCC /* UIView+RounderCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85CC2242148A00CD2DCC /* UIView+RounderCorner.m */; };
+		FEBA85F02242148C00CD2DCC /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85CF2242148A00CD2DCC /* NSDate+Extensions.m */; };
+		FEBA85F12242148C00CD2DCC /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85D32242148A00CD2DCC /* NSDictionary+JSON.m */; };
+		FEBA85F22242148C00CD2DCC /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85D82242148B00CD2DCC /* NSString+Time.m */; };
+		FEBA85F32242148C00CD2DCC /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85D92242148B00CD2DCC /* UIButton+Layout.m */; };
+		FEBA85F42242148C00CD2DCC /* WKWebView+SearchWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85DB2242148B00CD2DCC /* WKWebView+SearchWebView.m */; };
+		FEBA85F62242148C00CD2DCC /* UIView+UIScreenDisplaying.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85E02242148B00CD2DCC /* UIView+UIScreenDisplaying.m */; };
+		FEBA85F72242148C00CD2DCC /* NSString+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85E22242148B00CD2DCC /* NSString+Tools.m */; };
+		FEBA85F82242148C00CD2DCC /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85E52242148B00CD2DCC /* UIView+Common.m */; };
+		FEBA85FA2242148C00CD2DCC /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85E72242148C00CD2DCC /* UIColor+Hex.m */; };
+		FEBA85FB2242148C00CD2DCC /* UINavigationItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85E82242148C00CD2DCC /* UINavigationItem+Extension.m */; };
+		FEBA85FC2242148C00CD2DCC /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85EA2242148C00CD2DCC /* UIViewController+BackButtonHandler.m */; };
+		FEBA85FD2242148C00CD2DCC /* UIImage+UIImageScale.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA85EB2242148C00CD2DCC /* UIImage+UIImageScale.m */; };
+		FEBA8607224217FC00CD2DCC /* ZEBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA8603224217FC00CD2DCC /* ZEBUtils.m */; };
+		FEBA8608224217FC00CD2DCC /* ZEBUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA8605224217FC00CD2DCC /* ZEBUI.m */; };
+		FEBA861A22421BD800CD2DCC /* WSApp.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA861822421BD700CD2DCC /* WSApp.m */; };
+		FEBA861E22421C4200CD2DCC /* WSPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA861D22421C4200CD2DCC /* WSPageManager.m */; };
+		FEBA862122421D9800CD2DCC /* Controllers.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEBA862022421D9800CD2DCC /* Controllers.plist */; };
+		FEBA862A22421F1900CD2DCC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA862922421F1900CD2DCC /* HomeViewController.m */; };
+		FEBA862D2242204E00CD2DCC /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA862C2242204E00CD2DCC /* MineViewController.m */; };
+		FEBA862F2242373200CD2DCC /* deer.json in Resources */ = {isa = PBXBuildFile; fileRef = FEBA862E2242373200CD2DCC /* deer.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEBA85942241F40900CD2DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBA85732241F40800CD2DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBA857A2241F40900CD2DCC;
+			remoteInfo = OCDeepPlayer;
+		};
+		FEBA859F2241F40900CD2DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBA85732241F40800CD2DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBA857A2241F40900CD2DCC;
+			remoteInfo = OCDeepPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18822403E3C3B3A138AC14AA /* Pods-OCDeepPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDeepPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCDeepPlayer/Pods-OCDeepPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		9A848DA7627E5AFA89B94D0B /* Pods-OCDeepPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDeepPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCDeepPlayer/Pods-OCDeepPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		D3DDE385AD37B614785C5C2B /* libPods-OCDeepPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCDeepPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA857B2241F40900CD2DCC /* OCDeepPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDeepPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA857E2241F40900CD2DCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEBA857F2241F40900CD2DCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEBA85872241F40900CD2DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEBA858C2241F40900CD2DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA858D2241F40900CD2DCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEBA85932241F40900CD2DCC /* OCDeepPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCDeepPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA85972241F40900CD2DCC /* OCDeepPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDeepPlayerTests.m; sourceTree = "<group>"; };
+		FEBA85992241F40900CD2DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA859E2241F40900CD2DCC /* OCDeepPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCDeepPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA85A22241F40900CD2DCC /* OCDeepPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDeepPlayerUITests.m; sourceTree = "<group>"; };
+		FEBA85A42241F40900CD2DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA85B5224213AE00CD2DCC /* AppDelegate+TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+TabBar.h"; sourceTree = "<group>"; };
+		FEBA85B6224213AE00CD2DCC /* AppDelegate+TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+TabBar.m"; sourceTree = "<group>"; };
+		FEBA85BA224213C400CD2DCC /* WSLaunchSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLaunchSceneViewController.m; sourceTree = "<group>"; };
+		FEBA85BB224213C400CD2DCC /* WSLaunchSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLaunchSceneViewController.h; sourceTree = "<group>"; };
+		FEBA85BD224213DC00CD2DCC /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		FEBA85BE224213DC00CD2DCC /* BasePresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePresentViewController.m; sourceTree = "<group>"; };
+		FEBA85BF224213DC00CD2DCC /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		FEBA85C0224213DC00CD2DCC /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FEBA85C1224213DC00CD2DCC /* BasePresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePresentViewController.h; sourceTree = "<group>"; };
+		FEBA85C2224213DC00CD2DCC /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FEBA85C6224213ED00CD2DCC /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		FEBA85C7224213ED00CD2DCC /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		FEBA85C92242148A00CD2DCC /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+EnlargeEdge.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
+		FEBA85CB2242148A00CD2DCC /* NSArray+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSON.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSArray+JSON.m"; sourceTree = "<group>"; };
+		FEBA85CC2242148A00CD2DCC /* UIView+RounderCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+RounderCorner.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIView+RounderCorner.m"; sourceTree = "<group>"; };
+		FEBA85CD2242148A00CD2DCC /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Common.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIView+Common.h"; sourceTree = "<group>"; };
+		FEBA85CE2242148A00CD2DCC /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Layout.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIButton+Layout.h"; sourceTree = "<group>"; };
+		FEBA85CF2242148A00CD2DCC /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extensions.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSDate+Extensions.m"; sourceTree = "<group>"; };
+		FEBA85D02242148A00CD2DCC /* UIView+UIScreenDisplaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+UIScreenDisplaying.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIView+UIScreenDisplaying.h"; sourceTree = "<group>"; };
+		FEBA85D12242148A00CD2DCC /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+EnlargeEdge.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		FEBA85D22242148A00CD2DCC /* UIImage+UIImageScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+UIImageScale.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIImage+UIImageScale.h"; sourceTree = "<group>"; };
+		FEBA85D32242148A00CD2DCC /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JSON.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		FEBA85D52242148B00CD2DCC /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIColor+Hex.h"; sourceTree = "<group>"; };
+		FEBA85D62242148B00CD2DCC /* UIView+RounderCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+RounderCorner.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIView+RounderCorner.h"; sourceTree = "<group>"; };
+		FEBA85D72242148B00CD2DCC /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BackButtonHandler.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		FEBA85D82242148B00CD2DCC /* NSString+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Time.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSString+Time.m"; sourceTree = "<group>"; };
+		FEBA85D92242148B00CD2DCC /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Layout.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIButton+Layout.m"; sourceTree = "<group>"; };
+		FEBA85DB2242148B00CD2DCC /* WKWebView+SearchWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+SearchWebView.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/WKWebView+SearchWebView.m"; sourceTree = "<group>"; };
+		FEBA85DC2242148B00CD2DCC /* NSString+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Tools.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSString+Tools.h"; sourceTree = "<group>"; };
+		FEBA85DD2242148B00CD2DCC /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JSON.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		FEBA85DE2242148B00CD2DCC /* WKWebView+SearchWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WKWebView+SearchWebView.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/WKWebView+SearchWebView.h"; sourceTree = "<group>"; };
+		FEBA85E02242148B00CD2DCC /* UIView+UIScreenDisplaying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIScreenDisplaying.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIView+UIScreenDisplaying.m"; sourceTree = "<group>"; };
+		FEBA85E12242148B00CD2DCC /* NSString+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Time.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSString+Time.h"; sourceTree = "<group>"; };
+		FEBA85E22242148B00CD2DCC /* NSString+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Tools.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSString+Tools.m"; sourceTree = "<group>"; };
+		FEBA85E32242148B00CD2DCC /* NSArray+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSON.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSArray+JSON.h"; sourceTree = "<group>"; };
+		FEBA85E42242148B00CD2DCC /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extensions.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/NSDate+Extensions.h"; sourceTree = "<group>"; };
+		FEBA85E52242148B00CD2DCC /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Common.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIView+Common.m"; sourceTree = "<group>"; };
+		FEBA85E72242148C00CD2DCC /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIColor+Hex.m"; sourceTree = "<group>"; };
+		FEBA85E82242148C00CD2DCC /* UINavigationItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+Extension.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UINavigationItem+Extension.m"; sourceTree = "<group>"; };
+		FEBA85E92242148C00CD2DCC /* UINavigationItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+Extension.h"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UINavigationItem+Extension.h"; sourceTree = "<group>"; };
+		FEBA85EA2242148C00CD2DCC /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BackButtonHandler.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		FEBA85EB2242148C00CD2DCC /* UIImage+UIImageScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+UIImageScale.m"; path = "../../../../gitlab/master/WeSafeApp-iOS/ZEBBaseProject/ZEBBaseProject/Categories/UIImage+UIImageScale.m"; sourceTree = "<group>"; };
+		FEBA85FE2242163D00CD2DCC /* Enum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		FEBA86012242174500CD2DCC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FEBA8603224217FC00CD2DCC /* ZEBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEBUtils.m; sourceTree = "<group>"; };
+		FEBA8604224217FC00CD2DCC /* ZEBUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEBUI.h; sourceTree = "<group>"; };
+		FEBA8605224217FC00CD2DCC /* ZEBUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEBUI.m; sourceTree = "<group>"; };
+		FEBA8606224217FC00CD2DCC /* ZEBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEBUtils.h; sourceTree = "<group>"; };
+		FEBA861722421A6B00CD2DCC /* PublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		FEBA861822421BD700CD2DCC /* WSApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSApp.m; sourceTree = "<group>"; };
+		FEBA861922421BD700CD2DCC /* WSApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSApp.h; sourceTree = "<group>"; };
+		FEBA861C22421C4200CD2DCC /* WSPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPageManager.h; sourceTree = "<group>"; };
+		FEBA861D22421C4200CD2DCC /* WSPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPageManager.m; sourceTree = "<group>"; };
+		FEBA862022421D9800CD2DCC /* Controllers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Controllers.plist; sourceTree = "<group>"; };
+		FEBA862822421F1900CD2DCC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FEBA862922421F1900CD2DCC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FEBA862B2242204E00CD2DCC /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = ../home/MineViewController.h; sourceTree = "<group>"; };
+		FEBA862C2242204E00CD2DCC /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = ../home/MineViewController.m; sourceTree = "<group>"; };
+		FEBA862E2242373200CD2DCC /* deer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deer.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBA85782241F40900CD2DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E79E88C5781ABD5EF15B0E /* libPods-OCDeepPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA85902241F40900CD2DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA859B2241F40900CD2DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		944E542D4C8F12BE15A22C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18822403E3C3B3A138AC14AA /* Pods-OCDeepPlayer.debug.xcconfig */,
+				9A848DA7627E5AFA89B94D0B /* Pods-OCDeepPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B15948E04AF318989254AA34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3DDE385AD37B614785C5C2B /* libPods-OCDeepPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEBA85722241F40800CD2DCC = {
+			isa = PBXGroup;
+			children = (
+				FEBA857D2241F40900CD2DCC /* OCDeepPlayer */,
+				FEBA85962241F40900CD2DCC /* OCDeepPlayerTests */,
+				FEBA85A12241F40900CD2DCC /* OCDeepPlayerUITests */,
+				FEBA857C2241F40900CD2DCC /* Products */,
+				944E542D4C8F12BE15A22C18 /* Pods */,
+				B15948E04AF318989254AA34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBA857C2241F40900CD2DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA857B2241F40900CD2DCC /* OCDeepPlayer.app */,
+				FEBA85932241F40900CD2DCC /* OCDeepPlayerTests.xctest */,
+				FEBA859E2241F40900CD2DCC /* OCDeepPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBA857D2241F40900CD2DCC /* OCDeepPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA85B0224212E600CD2DCC /* AppEntry */,
+				FEBA862222421E4200CD2DCC /* Features */,
+				FEBA85B32242131900CD2DCC /* Config */,
+				FEBA85B22242130B00CD2DCC /* Categories */,
+				FEBA861B22421C2F00CD2DCC /* Helper */,
+				FEBA8602224217C800CD2DCC /* Utilites */,
+				FEBA85B12242130300CD2DCC /* Base */,
+				FEBA861F22421D8900CD2DCC /* Resources */,
+				FEBA85872241F40900CD2DCC /* Assets.xcassets */,
+				FEBA858C2241F40900CD2DCC /* Info.plist */,
+				FEBA858D2241F40900CD2DCC /* main.m */,
+			);
+			path = OCDeepPlayer;
+			sourceTree = "<group>";
+		};
+		FEBA85962241F40900CD2DCC /* OCDeepPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA85972241F40900CD2DCC /* OCDeepPlayerTests.m */,
+				FEBA85992241F40900CD2DCC /* Info.plist */,
+			);
+			path = OCDeepPlayerTests;
+			sourceTree = "<group>";
+		};
+		FEBA85A12241F40900CD2DCC /* OCDeepPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA85A22241F40900CD2DCC /* OCDeepPlayerUITests.m */,
+				FEBA85A42241F40900CD2DCC /* Info.plist */,
+			);
+			path = OCDeepPlayerUITests;
+			sourceTree = "<group>";
+		};
+		FEBA85B0224212E600CD2DCC /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA857E2241F40900CD2DCC /* AppDelegate.h */,
+				FEBA857F2241F40900CD2DCC /* AppDelegate.m */,
+				FEBA85B5224213AE00CD2DCC /* AppDelegate+TabBar.h */,
+				FEBA85B6224213AE00CD2DCC /* AppDelegate+TabBar.m */,
+				FEBA85BB224213C400CD2DCC /* WSLaunchSceneViewController.h */,
+				FEBA85BA224213C400CD2DCC /* WSLaunchSceneViewController.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		FEBA85B12242130300CD2DCC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA85C6224213ED00CD2DCC /* RootNavigationController.h */,
+				FEBA85C7224213ED00CD2DCC /* RootNavigationController.m */,
+				FEBA85C1224213DC00CD2DCC /* BasePresentViewController.h */,
+				FEBA85BE224213DC00CD2DCC /* BasePresentViewController.m */,
+				FEBA85BF224213DC00CD2DCC /* BaseTabBarController.h */,
+				FEBA85BD224213DC00CD2DCC /* BaseTabBarController.m */,
+				FEBA85C2224213DC00CD2DCC /* BaseViewController.h */,
+				FEBA85C0224213DC00CD2DCC /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FEBA85B22242130B00CD2DCC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA85E42242148B00CD2DCC /* NSDate+Extensions.h */,
+				FEBA85CF2242148A00CD2DCC /* NSDate+Extensions.m */,
+				FEBA85E12242148B00CD2DCC /* NSString+Time.h */,
+				FEBA85D82242148B00CD2DCC /* NSString+Time.m */,
+				FEBA85D72242148B00CD2DCC /* UIViewController+BackButtonHandler.h */,
+				FEBA85EA2242148C00CD2DCC /* UIViewController+BackButtonHandler.m */,
+				FEBA85E92242148C00CD2DCC /* UINavigationItem+Extension.h */,
+				FEBA85E82242148C00CD2DCC /* UINavigationItem+Extension.m */,
+				FEBA85DD2242148B00CD2DCC /* NSDictionary+JSON.h */,
+				FEBA85D32242148A00CD2DCC /* NSDictionary+JSON.m */,
+				FEBA85E32242148B00CD2DCC /* NSArray+JSON.h */,
+				FEBA85CB2242148A00CD2DCC /* NSArray+JSON.m */,
+				FEBA85CE2242148A00CD2DCC /* UIButton+Layout.h */,
+				FEBA85D92242148B00CD2DCC /* UIButton+Layout.m */,
+				FEBA85D12242148A00CD2DCC /* UIButton+EnlargeEdge.h */,
+				FEBA85C92242148A00CD2DCC /* UIButton+EnlargeEdge.m */,
+				FEBA85DC2242148B00CD2DCC /* NSString+Tools.h */,
+				FEBA85E22242148B00CD2DCC /* NSString+Tools.m */,
+				FEBA85CD2242148A00CD2DCC /* UIView+Common.h */,
+				FEBA85E52242148B00CD2DCC /* UIView+Common.m */,
+				FEBA85D52242148B00CD2DCC /* UIColor+Hex.h */,
+				FEBA85E72242148C00CD2DCC /* UIColor+Hex.m */,
+				FEBA85D62242148B00CD2DCC /* UIView+RounderCorner.h */,
+				FEBA85CC2242148A00CD2DCC /* UIView+RounderCorner.m */,
+				FEBA85D02242148A00CD2DCC /* UIView+UIScreenDisplaying.h */,
+				FEBA85E02242148B00CD2DCC /* UIView+UIScreenDisplaying.m */,
+				FEBA85D22242148A00CD2DCC /* UIImage+UIImageScale.h */,
+				FEBA85EB2242148C00CD2DCC /* UIImage+UIImageScale.m */,
+				FEBA85DE2242148B00CD2DCC /* WKWebView+SearchWebView.h */,
+				FEBA85DB2242148B00CD2DCC /* WKWebView+SearchWebView.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FEBA85B32242131900CD2DCC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA85FE2242163D00CD2DCC /* Enum.h */,
+				FEBA86012242174500CD2DCC /* PrefixHeader.pch */,
+				FEBA861722421A6B00CD2DCC /* PublicDefine.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FEBA8602224217C800CD2DCC /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA861922421BD700CD2DCC /* WSApp.h */,
+				FEBA861822421BD700CD2DCC /* WSApp.m */,
+				FEBA8604224217FC00CD2DCC /* ZEBUI.h */,
+				FEBA8605224217FC00CD2DCC /* ZEBUI.m */,
+				FEBA8606224217FC00CD2DCC /* ZEBUtils.h */,
+				FEBA8603224217FC00CD2DCC /* ZEBUtils.m */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		FEBA861B22421C2F00CD2DCC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA861C22421C4200CD2DCC /* WSPageManager.h */,
+				FEBA861D22421C4200CD2DCC /* WSPageManager.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FEBA861F22421D8900CD2DCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA862E2242373200CD2DCC /* deer.json */,
+				FEBA862022421D9800CD2DCC /* Controllers.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FEBA862222421E4200CD2DCC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA862422421E6D00CD2DCC /* home */,
+				FEBA862322421E6900CD2DCC /* mine */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FEBA862322421E6900CD2DCC /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA862B2242204E00CD2DCC /* MineViewController.h */,
+				FEBA862C2242204E00CD2DCC /* MineViewController.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		FEBA862422421E6D00CD2DCC /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA862822421F1900CD2DCC /* HomeViewController.h */,
+				FEBA862922421F1900CD2DCC /* HomeViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBA857A2241F40900CD2DCC /* OCDeepPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA85A72241F40900CD2DCC /* Build configuration list for PBXNativeTarget "OCDeepPlayer" */;
+			buildPhases = (
+				51CFBC02A96CD748E6AA7099 /* [CP] Check Pods Manifest.lock */,
+				FEBA85772241F40900CD2DCC /* Sources */,
+				FEBA85782241F40900CD2DCC /* Frameworks */,
+				FEBA85792241F40900CD2DCC /* Resources */,
+				25BE411745BF88F4FF2BEC52 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCDeepPlayer;
+			productName = OCDeepPlayer;
+			productReference = FEBA857B2241F40900CD2DCC /* OCDeepPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEBA85922241F40900CD2DCC /* OCDeepPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA85AA2241F40900CD2DCC /* Build configuration list for PBXNativeTarget "OCDeepPlayerTests" */;
+			buildPhases = (
+				FEBA858F2241F40900CD2DCC /* Sources */,
+				FEBA85902241F40900CD2DCC /* Frameworks */,
+				FEBA85912241F40900CD2DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBA85952241F40900CD2DCC /* PBXTargetDependency */,
+			);
+			name = OCDeepPlayerTests;
+			productName = OCDeepPlayerTests;
+			productReference = FEBA85932241F40900CD2DCC /* OCDeepPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEBA859D2241F40900CD2DCC /* OCDeepPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA85AD2241F40900CD2DCC /* Build configuration list for PBXNativeTarget "OCDeepPlayerUITests" */;
+			buildPhases = (
+				FEBA859A2241F40900CD2DCC /* Sources */,
+				FEBA859B2241F40900CD2DCC /* Frameworks */,
+				FEBA859C2241F40900CD2DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBA85A02241F40900CD2DCC /* PBXTargetDependency */,
+			);
+			name = OCDeepPlayerUITests;
+			productName = OCDeepPlayerUITests;
+			productReference = FEBA859E2241F40900CD2DCC /* OCDeepPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBA85732241F40800CD2DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wutos;
+				TargetAttributes = {
+					FEBA857A2241F40900CD2DCC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FEBA85922241F40900CD2DCC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FEBA857A2241F40900CD2DCC;
+					};
+					FEBA859D2241F40900CD2DCC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FEBA857A2241F40900CD2DCC;
+					};
+				};
+			};
+			buildConfigurationList = FEBA85762241F40800CD2DCC /* Build configuration list for PBXProject "OCDeepPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBA85722241F40800CD2DCC;
+			productRefGroup = FEBA857C2241F40900CD2DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBA857A2241F40900CD2DCC /* OCDeepPlayer */,
+				FEBA85922241F40900CD2DCC /* OCDeepPlayerTests */,
+				FEBA859D2241F40900CD2DCC /* OCDeepPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBA85792241F40900CD2DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA85882241F40900CD2DCC /* Assets.xcassets in Resources */,
+				FEBA862F2242373200CD2DCC /* deer.json in Resources */,
+				FEBA862122421D9800CD2DCC /* Controllers.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA85912241F40900CD2DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA859C2241F40900CD2DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25BE411745BF88F4FF2BEC52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OCDeepPlayer/Pods-OCDeepPlayer-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCDeepPlayer/Pods-OCDeepPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51CFBC02A96CD748E6AA7099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCDeepPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBA85772241F40900CD2DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA862D2242204E00CD2DCC /* MineViewController.m in Sources */,
+				FEBA85C5224213DC00CD2DCC /* BaseViewController.m in Sources */,
+				FEBA85C4224213DC00CD2DCC /* BasePresentViewController.m in Sources */,
+				FEBA85F72242148C00CD2DCC /* NSString+Tools.m in Sources */,
+				FEBA85EC2242148C00CD2DCC /* UIButton+EnlargeEdge.m in Sources */,
+				FEBA85C8224213ED00CD2DCC /* RootNavigationController.m in Sources */,
+				FEBA85C3224213DC00CD2DCC /* BaseTabBarController.m in Sources */,
+				FEBA85FB2242148C00CD2DCC /* UINavigationItem+Extension.m in Sources */,
+				FEBA85FD2242148C00CD2DCC /* UIImage+UIImageScale.m in Sources */,
+				FEBA85F02242148C00CD2DCC /* NSDate+Extensions.m in Sources */,
+				FEBA85FC2242148C00CD2DCC /* UIViewController+BackButtonHandler.m in Sources */,
+				FEBA85BC224213C400CD2DCC /* WSLaunchSceneViewController.m in Sources */,
+				FEBA85B9224213AE00CD2DCC /* AppDelegate+TabBar.m in Sources */,
+				FEBA85FA2242148C00CD2DCC /* UIColor+Hex.m in Sources */,
+				FEBA858E2241F40900CD2DCC /* main.m in Sources */,
+				FEBA85F12242148C00CD2DCC /* NSDictionary+JSON.m in Sources */,
+				FEBA85F32242148C00CD2DCC /* UIButton+Layout.m in Sources */,
+				FEBA861E22421C4200CD2DCC /* WSPageManager.m in Sources */,
+				FEBA85F22242148C00CD2DCC /* NSString+Time.m in Sources */,
+				FEBA85EE2242148C00CD2DCC /* NSArray+JSON.m in Sources */,
+				FEBA85F62242148C00CD2DCC /* UIView+UIScreenDisplaying.m in Sources */,
+				FEBA861A22421BD800CD2DCC /* WSApp.m in Sources */,
+				FEBA862A22421F1900CD2DCC /* HomeViewController.m in Sources */,
+				FEBA85802241F40900CD2DCC /* AppDelegate.m in Sources */,
+				FEBA8608224217FC00CD2DCC /* ZEBUI.m in Sources */,
+				FEBA85F82242148C00CD2DCC /* UIView+Common.m in Sources */,
+				FEBA85EF2242148C00CD2DCC /* UIView+RounderCorner.m in Sources */,
+				FEBA85F42242148C00CD2DCC /* WKWebView+SearchWebView.m in Sources */,
+				FEBA8607224217FC00CD2DCC /* ZEBUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA858F2241F40900CD2DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA85982241F40900CD2DCC /* OCDeepPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA859A2241F40900CD2DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA85A32241F40900CD2DCC /* OCDeepPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEBA85952241F40900CD2DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBA857A2241F40900CD2DCC /* OCDeepPlayer */;
+			targetProxy = FEBA85942241F40900CD2DCC /* PBXContainerItemProxy */;
+		};
+		FEBA85A02241F40900CD2DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBA857A2241F40900CD2DCC /* OCDeepPlayer */;
+			targetProxy = FEBA859F2241F40900CD2DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEBA85A52241F40900CD2DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEBA85A62241F40900CD2DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBA85A82241F40900CD2DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18822403E3C3B3A138AC14AA /* Pods-OCDeepPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KA888397;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCDeepPlayer/Config/PrefixHeader.pch";
+				INFOPLIST_FILE = OCDeepPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCDeepPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FEBA85A92241F40900CD2DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A848DA7627E5AFA89B94D0B /* Pods-OCDeepPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KA888397;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCDeepPlayer/Config/PrefixHeader.pch";
+				INFOPLIST_FILE = OCDeepPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCDeepPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FEBA85AB2241F40900CD2DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KA888397;
+				INFOPLIST_FILE = OCDeepPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCDeepPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCDeepPlayer.app/OCDeepPlayer";
+			};
+			name = Debug;
+		};
+		FEBA85AC2241F40900CD2DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KA888397;
+				INFOPLIST_FILE = OCDeepPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCDeepPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCDeepPlayer.app/OCDeepPlayer";
+			};
+			name = Release;
+		};
+		FEBA85AE2241F40900CD2DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KA888397;
+				INFOPLIST_FILE = OCDeepPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCDeepPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCDeepPlayer;
+			};
+			name = Debug;
+		};
+		FEBA85AF2241F40900CD2DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36KA888397;
+				INFOPLIST_FILE = OCDeepPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCDeepPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCDeepPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBA85762241F40800CD2DCC /* Build configuration list for PBXProject "OCDeepPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA85A52241F40900CD2DCC /* Debug */,
+				FEBA85A62241F40900CD2DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBA85A72241F40900CD2DCC /* Build configuration list for PBXNativeTarget "OCDeepPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA85A82241F40900CD2DCC /* Debug */,
+				FEBA85A92241F40900CD2DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBA85AA2241F40900CD2DCC /* Build configuration list for PBXNativeTarget "OCDeepPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA85AB2241F40900CD2DCC /* Debug */,
+				FEBA85AC2241F40900CD2DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBA85AD2241F40900CD2DCC /* Build configuration list for PBXNativeTarget "OCDeepPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA85AE2241F40900CD2DCC /* Debug */,
+				FEBA85AF2241F40900CD2DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEBA85732241F40800CD2DCC /* Project object */;
+}
